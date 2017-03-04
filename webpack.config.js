@@ -13,7 +13,7 @@ module.exports = {
     loaders: [{
       loader: 'babel-loader',
       query: {
-        presets: ['react', 'latest'],
+        presets: ['react', 'latest', 'stage-2'],
       },
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/,
