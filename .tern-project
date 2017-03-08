@@ -4,8 +4,8 @@
     "browser"
   ],
   "loadEagerly": [
-    "public/**/*.jsx",
-    "public/**/*.js"
+    "app/**/*.jsx",
+    "app/**/*.js"
   ],
   "plugins": {
     "modules": {
@@ -13,6 +13,19 @@
       "load": "",
       "modules": ""
     },
-    "es_modules": {}
-  }
+    "es_modules": {},
+    "commonjs": {},
+    "requirejs": {
+      "baseURL": "",
+      "paths": "",
+      "override": ""
+    },
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "jsx": {}
+  },
+  "dontLoad": []
 }
